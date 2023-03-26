@@ -1,0 +1,33 @@
+:root {
+  --Dark-cyan: #067f8d;
+  --Very-Dark-Blue: #021218;
+  --Greyish-yellow: #c7d0a1;
+}
+
+html,
+body {
+  background: var(--Very-Dark-Blue);
+  color: var(--Dark-cyan);
+}
+
+h1,
+p {
+  color: var(--Dark-cyan);
+}
+
+#navbar a {
+  color: var(--Dark-cyan);
+}
+
+.item {
+  background: var(--Greyish-yellow);
+}
+
+button {
+  background: var(--Dark-cyan);
+  color: var(--Greyish-yellow);
+}
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital@1&family=Raleway:ital,wght@1,200&family=Shadows+Into+Light+Two&display=swap');
+</style>
